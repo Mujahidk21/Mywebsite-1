@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap');
+:root{
+    --primary-color:#22d3ee;
+}
 body{
     font-family: 'Sofia Sans semi Condensed', sans-serif;
 }
@@ -9,4 +12,19 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary { 
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
