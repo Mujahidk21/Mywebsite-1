@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Sofia Sans semi Condensed', sans-serif;
+    margin: 0px;
 }
 hr{
     margin: 2rem 0rem ;
@@ -70,6 +71,7 @@ hr{
     margin: auto;
 }
 .hero .hero-heading {
+    text-align: center;
     padding: 1rem;
     color: var(--pink);
       
@@ -85,4 +87,17 @@ hr{
 }
 .ow{
     background-color: var(--off-white);
+}
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+}
+.footer .link{
+    color: white;
+}
+.footer ul {
+    padding-inline-start: 0px;
 }
