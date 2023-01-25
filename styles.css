@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap');
 :root{
-    --primary-color:#22d3ee;
+    --primary-color:#10c2dd;
 }
 body{
     font-family: 'Sofia Sans semi Condensed', sans-serif;
+}
+hr{
+    margin: 2rem 0rem ;
 }
 .container{
     padding-left: 1rem;
@@ -27,4 +30,12 @@ body{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
