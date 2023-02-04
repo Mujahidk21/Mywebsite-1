@@ -3,7 +3,7 @@
     --primary-color:#10c2dd;
     --purple: #a855f7;
     --pink: #94a3b8;
-    --off-white: #e2e8f0;
+    --off-white: #b1f3fd;
 }
 body{
     font-family: 'Sofia Sans semi Condensed', sans-serif;
@@ -85,12 +85,18 @@ hr{
 }
 .section {
     padding: 2rem;
+    margin: 100px 100px;
+    text-align: center;
+    font-size: large;
 }
 .section h1 {
     text-align: center;
 }
 .ow{
     background-color: var(--off-white);
+    border-radius: 1.5rem;
+    padding: 70px;
+    font-size: large;
 }
 .footer {
     background-color: var(--primary-color);
