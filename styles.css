@@ -2,7 +2,8 @@
 :root{
     --primary-color:#10c2dd;
     --purple: #a855f7;
-    --pink: #94a3b8;
+    --darkgrey: #97c5d4;
+    --pink: #edf5f5;
     --off-white: #b1f3fd;
 }
 html,body{
@@ -31,19 +32,20 @@ hr{
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* border-radius: 2rem; */
     /* margin-top: 1rem;
     margin-bottom: 0rem; */
 }
 
 .link-primary { 
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     padding: 0.5rem;
     color:white;
 }
 .link-secondary{
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     border: 1px solid var(--primary-color);
 }
 
@@ -85,7 +87,7 @@ hr{
 .hero .hero-heading {
     text-align: center;
     padding: 1rem;
-    color: var(--pink);
+    color: var(--darkgrey);
       
 }
 .hero .hero-heading .heading-inverted {
@@ -101,7 +103,7 @@ hr{
     text-align: center;
 }
 .ow{
-    background-color: var(--off-white);
+    background-color: var(--pink);
     border-radius: 1.5rem;
     padding: 70px;
     font-size: large;
