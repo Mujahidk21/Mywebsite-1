@@ -108,6 +108,13 @@ hr{
     padding: 70px;
     font-size: large;
 }
+.op{
+    background-color: var(--pink);
+    padding: 1rem;
+    border-radius: 1.5rem;
+     max-width: 600px;
+    margin: auto;
+}
 .footer {
     background-color: var(--primary-color);
     text-align: center;
