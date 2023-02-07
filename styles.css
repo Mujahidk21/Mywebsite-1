@@ -27,6 +27,7 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+    font-size: large;
 }
 .link{
     box-sizing: border-box;
