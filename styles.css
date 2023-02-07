@@ -94,8 +94,8 @@ hr{
     color: var(--primary-color);
 }
 .section {
-    padding: 2rem;
-    margin: 30px 30px;
+    padding: 5rem;
+    /* margin: 30px 30px; */
     text-align: center;
     font-size: large;
 }
@@ -111,7 +111,7 @@ hr{
 .op{
     background-color: var(--pink);
     padding: 1rem;
-    border-radius: 1.5rem;
+    border-radius: 5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     max-width: 900px;
