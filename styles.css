@@ -28,6 +28,7 @@ hr{
     max-width: 600px;
     margin: auto;
     font-size: large;
+    padding-bottom: 3.5rem;
 }
 .link{
     box-sizing: border-box;
@@ -86,10 +87,11 @@ hr{
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-top: 2rem;
 }
 .hero .hero-heading {
     text-align: center;
-    padding: 1rem;
+    padding-top: 5rem;
     color: var(--darkgrey);
       
 }
@@ -119,7 +121,7 @@ hr{
     padding-right: 1rem;
     max-width: 900px;
     margin: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .opw{
     /* background-color: var(--pink); */
