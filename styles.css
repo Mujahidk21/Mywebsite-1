@@ -91,7 +91,8 @@ hr{
 }
 .hero .hero-heading {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 30px;
     /* padding-bottom: 0rem; */
     color: var(--darkgrey);
       
@@ -116,23 +117,23 @@ hr{
 }
 .op{
     background-color: var(--pink);
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     max-width: 900px;
-    margin: auto;
-    padding-bottom: 1rem;
+    margin: 10px;
+    /* padding-bottom: 1rem; */
 }
 .opw{
     /* background-color: var(--pink); */
-    padding: 1rem;
+    /* padding: 1rem; */
     /* border-radius: 5rem; */
     padding-left: 1rem;
     padding-right: 1rem;
     max-width: 900px;
-    margin: auto;
-    padding-bottom: 2rem;
+    margin: 10px;
+    /* padding-bottom: 1rem; */
 }
 .footer {
     background-color: var(--primary-color);
