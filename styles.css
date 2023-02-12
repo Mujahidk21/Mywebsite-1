@@ -18,17 +18,17 @@ body{
     margin: 0px;
 }
 .img-div{
-    width: 100%;
-    height: 60vh;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    height: 35vh;
     display: flex;
     align-items: center;
 }
 .img-div img {
-    float: left;
-   margin-left: 10px;
-   margin-right: 15px;
     border-radius: 50%;
 }
+
 hr{
     margin: 2rem 0rem ;
 }
