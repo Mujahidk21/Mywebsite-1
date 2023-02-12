@@ -2,7 +2,7 @@
 :root{
     --primary-color:#10c2dd;
     --purple: #a855f7;
-    --darkgrey: #97c5d4;
+    --darkgrey: #727171;
     --pink: #eff0f2;
     --off-white: #b1f3fd;
 }
@@ -72,6 +72,7 @@ hr{
 .list-item-inline {
     display: inline;
     padding: 0rem, 0.5rem;
+ font-size: large;
 }
 
 .navigation{
