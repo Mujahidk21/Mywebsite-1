@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap');
 :root{
-    --primary-color:#10c2dd;
+    --primary-color:#00c7e6;
     --purple: #a855f7;
-    --darkgrey: #727171;
+    --darkgrey: #6a6262;
     --pink: #eff0f2;
     --off-white: #b1f3fd;
 }
@@ -19,6 +19,7 @@ html,body{
 body{
     font-family: 'Sofia Sans semi Condensed', sans-serif;
     margin: 0px;
+    background-color: #ccf2ff;;
 }
 .img-div{
     max-width: 300px;
@@ -110,11 +111,10 @@ hr{
     padding-top: 1rem;
     margin-bottom: 30px;
     /* padding-bottom: 0rem; */
-    color: var(--darkgrey);
-      
+      color:#b58585;
 }
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: var(--darkgrey);
 }
 .section {
     padding: 2rem;
