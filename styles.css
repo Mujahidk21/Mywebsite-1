@@ -2,7 +2,6 @@
 
 :root{
     --primary-color:#c2099d;
-    --purple: #a855f7;
     --pink: #eff0f2;
 }
 html,body{
@@ -30,8 +29,11 @@ body{
 }
 .img-div img {
     border-radius: 50%;
+    margin-top: 8rem;
 }
-
+h3{
+    margin-top: 5rem;
+}
 hr{
     margin: 2rem 0rem ;
 }
@@ -111,7 +113,7 @@ hr{
       color:black;
 }
 .hero .hero-heading .heading-inverted {
-    color: var(--purple);
+    color: var(--primary-color);
 }
 .section {
     padding: 2rem;
@@ -148,6 +150,7 @@ hr{
     margin: auto;
     /* padding-bottom: 1rem; */
 }
+
 .footer {
     background-color: var(--primary-color);
     text-align: center;
