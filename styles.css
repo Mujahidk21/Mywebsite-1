@@ -3,7 +3,6 @@
     --primary-color:#c6009f;
     --purple: #a855f7;
     --pink: #eff0f2;
-    --off-white: #b1f3fd;
 }
 html,body{
     width: 100%;
@@ -113,7 +112,7 @@ hr{
       color:black;
 }
 .hero .hero-heading .heading-inverted {
-    color: #fc5226;
+    color: var(--purple);
 }
 .section {
     padding: 2rem;
