@@ -31,8 +31,10 @@ body{
     border-radius: 50%;
     margin-top: 8rem;
 }
-h3{
+h4{
     margin-top: 5rem;
+    font-size: larger;
+    font-weight: bolder;
 }
 hr{
     margin: 2rem 0rem ;
