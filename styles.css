@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
 
 :root {
-    --primary-color: #599EBF;
+    --primary-color: #3A98B9;
     --pink: #eff0f2;
 }
 
@@ -21,6 +21,7 @@ body {
 body {
     font-family: 'Chakra Petch', sans-serif;
     margin: 0px;
+    background: #a2eedd;
 }
 
 .img-div {
