@@ -24,21 +24,7 @@ body {
     background: powderblue;
 }
 
-.img-div {
-    max-width: 300px;
-    display: block;
-    margin: auto;
-    height: 35vh;
-    display: flex;
-    align-items: center;
-}
-
-.img-div img {
-    border-radius: 50%;
-    margin-top: 8rem;
-}
-
-h4 {
+ h4 {
     margin-top: 5rem;
     font-size: larger;
     font-weight: bolder;
@@ -58,6 +44,21 @@ hr {
     margin: auto;
     font-size: large;
     padding-bottom: 3.5rem;
+}
+
+/* footer img intro  */
+.intro {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 1.5;
+    font-size: large;
+}
+
+.img-div {
+    margin-right: 20px;
+    border-radius: 55%;
+    width: 50%;
 }
 
 .link {
@@ -142,7 +143,6 @@ hr {
 
 .section {
     padding: 2rem;
-    /* margin: 30px 30px; */
     text-align: center;
     font-size: large;
 }
